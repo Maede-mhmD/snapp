@@ -1,0 +1,57 @@
+        h1{
+            font-size: 200%;
+            color: chartreuse;
+            font-style: italic;
+            float: right;
+        }
+        .header{
+            background-color: chartreuse;
+            color:azure;
+            font-size: medium;
+            text-align: center;
+
+        }
+        h2{
+            color:white;
+            float:center;
+        }
+        p{
+            background-color: black;
+            text-align: center;
+            color: azure;
+        }
+      tabels{
+          background-color: beige;
+         color: black;
+         text-align: center;
+        }
+        .flex-container>div{
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+      footer{
+          color:white;
+          background-color: navy;
+          text-align: center;
+       
+      }
+      .menu{
+          float: right;
+          width: 20%;
+          text-align: center;
+          background-color: green;
+          border: 30;
+          color: aliceblue;
+      }
+     
+      .row::after{
+          content: "";
+          clear: both;
+          display: table;
+      }
+      .footer{
+
+      }
