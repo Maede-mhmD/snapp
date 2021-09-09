@@ -1,25 +1,175 @@
+@font-face {
+  font-family:'farci';
+  src: url('/fonts/IRMitra.ttf'),
+       url('/fonts/IRKamran.ttf'),
+       url('/fonts/Mj_Joude.ttf');
+}
 
-.button{
-    border: 10px;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    background-color:rgba(74, 223, 74, 0.87);
-    border-radius: 20px;
-    font-style: normal;  
-    float: left;
-    margin: 2%;
-    border: 10px solid rgba(74, 223, 74, 0.87);
+.flex-box {
+  display: flex;
+  box-sizing: content-box;
+  /* height: 20%; */
+  /* padding: 5; */
+  justify-content: right;
+  flex-direction: row-reverse;
+  height: 96px;
+  min-height: 96px;
 }
-ul{
-    display: inline;
-    list-style-type: none;
-    
-    font-size: 100%;
-    float: center;
+.items {
+  /* padding:1%; */
+  white-space: nowrap;
+  margin-right: 30px;
+  margin-top: 30px;
+  align-items: baseline;
+  font-family: 'farci';
+  font-size: 130%;
 }
-li{
-    float: right;
-    padding: 1%;
-    font-style: kerman;
+body{
+  background: #f2f5f8;
+}
+.right-column{
+  float: right;
+  width: 48.2%;
+  height: 12.05cm;
+  background: hsl(144,67%,40%);
+  margin-left:0%;
+  color: #eee;
+  font-family: 'farci';
+  font-size: 150%;
+}
+.h-l{
+  margin-right:17%;
+  text-align: right;
+}
+.download{
+  display: flex;
+  /* flex-direction: row-reverse;  */
+  justify-content: center;
+}
+.down-item{
+  /* flex-direction: row-reverse ; */
+  padding-top: 4.6%;
+  padding-inline: 1.5%;
+  margin-bottom: 7%;
+justify-content: center;
+}
+#h1 {
+  font-size: 290%;
+  text-align: center;
+  font-family: 'farci';
+}
+.mid-box{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+ 
+.mid-box >div {
+  display: flex;
+ flex-wrap: wrap-reverse;
+  /* justify-content: center; */
+  flex-direction: row-reverse;
+  width: 300px;
+  /* align-items: right; */
+  margin: 20px;
+  /* text-align: right; */
+  /* line-height: 75px; */
+  background:white;
+  height: 2.5cm;
+
+}
+.mid-box>div>span{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 2%;
+  margin-right: 2%;
+}
+.mid-box >div> span>h1 {
+  font-size: 120%;
+  font-family: 'farci';
+  /* padding-right: 2%; */
+  padding-top: 20px; 
+  text-align: right;
+  font-style: bold;
+}
+.mid-box>div>span>p{
+  color: rgb(148, 143, 143);
+  padding-top: %;
+  font-family:'farci';
+   /* padding-inline-start: -9%;  
+  text-align: center;*/
+}
+.mid-box>div>img{
+  align-items: right;
+  padding-right: 3%;
+  padding-bottom: 7%;
+}
+
+/* ul {
+  list-style-type: none;
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: flex-end;
+  padding: 3%;
+} */ 
+
+/* li {
+  float: right;
+  padding: 1%;
+  font-style: kerman;
+} */
+.foot-flex {
+  display: flex;
+  justify-content:right;
+  flex-direction: row-reverse;
+  /* align-items: flex-start;
+  flex-direction: row-reverse; */
+}
+.foot-items {
+  font-family: 'farci';
+  font-size: 130%;
+  /* white-space:nowrap;
+  /* justify-content:center; */
+  padding-right:1.9%;
+  padding-bottom: 2.8%;
+  padding-top: 4%; 
+  /* padding: 2.5%; */
+
+  flex-direction: row-reverse; */
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter{
+  background: #289bc9;
+  color: white;
+}
+.fa-instagram{
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-telegram{
+  background: #1c6ec0;
+  color:white
+}
+.social{
+ justify-content: left;
+/* padding-bottom: 2%;  */
+}
+footer{
+  background: transparent;
 }
